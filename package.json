@@ -1,0 +1,27 @@
+{
+  "name": "ts-node-sequelize-api",
+  "version": "1.0.0",
+  "description": "Simple RESTful API using TypeScript, Express, and Sequelize",
+  "main": "server.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "serve": "node dist/server.ts",
+    "prettier": "prettier --write \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "joi": "^18.0.1",
+    "mysql2": "^3.14.5",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.1",
+    "@types/sequelize": "^4.28.20",
+    "prettier": "3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
